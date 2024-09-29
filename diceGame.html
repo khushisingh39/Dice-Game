@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Game</title>
-    <!--<link rel="stylesheet" href="style.css"/>-->
     <style>
-        
         .container {
             width: 70%;
             margin: auto;
@@ -26,11 +24,11 @@
             margin: 0;
         }
 
-        h2 {
+        h1 {
             margin: 30px;
             font-family: "Calligrapher", caligraphy;
             font-size: 6.5rem;
-            color: #40E0D0;
+            color: #60acbe;
             text-align: center;
         }
 
@@ -75,7 +73,7 @@
 
 <body>
     <div class="container">
-        <h2>Let's   Play</h2>
+        <h1>Let's   Play</h1>
 
         <div class="dice">
             <p class="Player1">Player1</p>
@@ -98,9 +96,8 @@
         
     </div>
 </div>
-<!--<script src="script.js"></script>-->
     <script>
-              let player1 = "Player1";
+        let player1 = "Player1";
         let player2 = "Player2";
 
         function editNames() {
@@ -135,7 +132,6 @@
                 diceNum1.setAttribute('src', 'dice' + randomNumber1 + '.png');
                 diceNum2.setAttribute('src', 'dice' + randomNumber2 + '.png');
 
-                //determine the winner
                 if (randomNumber1 === randomNumber2) {
                     result.innerHTML = "Draw!"
                 }
@@ -148,6 +144,7 @@
 
             }, 2500);
         }
+
     </script>
 </body>
 
