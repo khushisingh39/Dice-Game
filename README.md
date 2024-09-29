@@ -10,3 +10,5 @@ Welcome to the Dice Game repository! This is a simple and fun dice rolling game 
 
 ## Technology Used
 - HTML
+- CSS
+- JavaScript
